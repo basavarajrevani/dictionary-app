@@ -21,36 +21,40 @@ body {
     margin: 50px auto;
 }
 
+.container input, 
+.container button {
+    padding: 10px; 
+    height: 45px; 
+    font-size: 18px;
+    border-radius: 6px;
+    box-sizing: border-box; 
+}
+
+.container input {
+    width: 80%;
+    border: none;
+    outline: none;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+.container button {
+    width: 20%;
+    border: none;
+    background-color: #ff6b6b;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
 .container .searchBar {
     display: flex;
     gap: 8px;
 }
 
-.container input {
-    width: 80%; 
-    padding: 14px;
-    height: 20px;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    background-color: #f0f0f0;
-    border-radius: 6px;
-    transition: background-color 0.3s ease;
-}
-
 .container input:hover {
     background-color: #e0e0e0;
-}
-
-.container button {
-    width: 20%; 
-    border: none;
-    background-color: #ff6b6b;
-    color: white;
-    font-size: 18px;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
 .container button:hover {
@@ -202,3 +206,5 @@ nav {
         padding: 6px 16px;
     }
 }
+
+
